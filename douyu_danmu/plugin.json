@@ -1,0 +1,11 @@
+{
+  "main": "page/danmu.html",
+  "logo": "img/favicon.png",
+  "features": [
+    {
+      "code": "danmu",
+      "explain": "斗鱼弹幕",
+      "cmds": ["danmu", "斗鱼弹幕"]
+    }
+  ]
+}

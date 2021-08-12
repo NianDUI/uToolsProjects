@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>弹幕</title>
+    <style>
+        .lv {
+            /* 等级 */
+            min-width: 40px;
+            /* 解决行内元素（inline）设置宽度不起作用 */
+            display: inline-block;
+        }
+
+        .nn {
+            /* 用户名 */
+            min-width: 150px;
+            /* 解决行内元素（inline）设置宽度不起作用 */
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<blockquote class="blockquote">
+    <div>
+        <label>
+            <input class="roomid" placeholder="请输入房间号" type="text" value="288016"/>
+        </label>
+        &nbsp;
+        <button class="connect">连接</button>
+        &nbsp;
+        <button class="disconnect">断开连接</button>
+    </div>
+    <fieldset class="fieldset">
+        <legend class="legend">弹幕</legend>
+        <div class="field-item"></div>
+    </fieldset>
+</blockquote>
+</body>
+<script src="../lib/jquery-3.6.0.min.js"></script>
+<script src="../js/danmu.js"></script>
+</html>
