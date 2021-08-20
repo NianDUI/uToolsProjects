@@ -1,0 +1,18 @@
+{
+  "preload": "js/preload.js",
+  "logo": "img/favicon.png",
+  "features": [
+    {
+      "code": "mybatislogformat",
+      "explain": "mybatis日志格式化",
+      "cmds": [
+        {
+          "type": "regex",
+          "label": "mybatis日志格式化",
+          "match": "/(Preparing:)|(Parameters:)/",
+          "minLength": 10
+        }
+      ]
+    }
+  ]
+}
