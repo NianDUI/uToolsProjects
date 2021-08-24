@@ -78,7 +78,7 @@ function processMybatisSqlLog(action) {
 
 // 拆分声明
 function splitPreparing(preparing) {
-    return preparing.split(" ?");
+    return preparing.split("?");
 }
 
 // 拆分参数
