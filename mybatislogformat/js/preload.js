@@ -73,7 +73,7 @@ function processMybatisSqlLog(action) {
     // 组装sql
     const sql = assemblySql(preparingArray, parametersArray);
     // 复制并退出，去除最后一个多余字符
-    utools.copyText(sql.substring(0, sql.length - 1));
+    utools.copyText(sql.substring(0, sql.length - 1) + " ;");
 }
 
 // 拆分声明
