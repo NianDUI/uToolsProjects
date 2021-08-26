@@ -117,6 +117,9 @@ function splitParameters(parameters) {
                 case "Boolean":
                     parametersArray[i] = parameter;
                     break;
+                case "PgArray":
+                    parameter = parameter.replaceAll("[", "{");
+                    parameter = parameter.replaceAll("]", "}");
                 default:
                     // Character、String、Data、Timestamp、PgArray...
                     parametersArray[i] = "'" + parameter + "'";
