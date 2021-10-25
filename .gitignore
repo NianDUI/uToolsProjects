@@ -1,6 +1,7 @@
 .idea*/
 target/
 *.iml
+package/
 
 # */ 这个斜杠代表 * 下的文件夹
 # * 任意文件
