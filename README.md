@@ -9,7 +9,7 @@ uTools插件项目
 斗鱼弹幕
 
 # 2、mybatislogformat
-mybatis日志格式插件
+mybatis日志格式化
 ## 使用方式
 - 在程序日志控制台，选中控制台sql日志文本(包括"Preparing:"和"Parameters:")
 - 使用鼠标中键唤出 uTools 超级面板的"弹出面板"，选择"mybatis日志格式化"
